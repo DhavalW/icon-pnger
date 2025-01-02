@@ -1,0 +1,54 @@
+{
+  "name": "icon-pnger",
+  "version": "1.0.0",
+  "description": "Generate PNG icons from Iconify icon sets in multiple sizes",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "icon-pnger": "./bin/generate-icons.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node ./bin/generate-icons.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DhavalW/icon-pnger.git"
+  },
+  "keywords": [
+    "iconify",
+    "icon",
+    "generator",
+    "png",
+    "svg",
+    "converter",
+    "cli",
+    "browser-extension",
+    "chrome-extension"
+  ],
+  "author": {
+    "name": "Dhaval Waghela"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@iconify/json": "^2.2.0",
+    "@resvg/resvg-js": "^2.6.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=14.16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+} 

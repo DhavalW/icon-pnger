@@ -1,0 +1,35 @@
+# Source
+src/
+
+# Tests
+test/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Development configs
+tsconfig.json
+.eslintrc
+.prettierrc
+.editorconfig
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Generated icons during development
+icons/ 
