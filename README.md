@@ -128,3 +128,7 @@ npm run build
 ```bash
 npm start
 ```
+
+## License
+
+MIT 
